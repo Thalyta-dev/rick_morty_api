@@ -14,6 +14,7 @@ public class EpisodeManagerService {
 
     public void consumir(){
         EpisodeResponseAPI episodeReponse = client.buscarEpisodio();
-        episodeReponse.getResult().forEach(System.out::println);
+        System.out.println(episodeReponse);
+        //episodeReponse.getResult().forEach(System.out::println);
     }
 }

@@ -14,6 +14,9 @@ public class EpisodeReponse {
     private List<String> characters;
     private LocalDateTime created;
 
+    public EpisodeReponse() {
+    }
+
     public Long getId() {
         return id;
     }
