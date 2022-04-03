@@ -8,7 +8,7 @@ public class EpisodeResponseAPI{
     @JsonProperty
     List<EpisodeReponse> results;
 
-   
+
     public List<EpisodeReponse> getResult() {
         return results;
     }
